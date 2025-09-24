@@ -1,7 +1,14 @@
 {
   "name": "vps-galaxy",
   "version": "1.0.0",
+  "description": "VPS Manager dengan push otomatis ke GitHub",
+  "main": "api/update.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
   "dependencies": {
-    "simple-git": "^3.19.1"
+    "axios": "^1.6.2",
+    "buffer": "^6.0.3"
   }
 }
